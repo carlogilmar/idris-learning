@@ -31,3 +31,25 @@ Remember:
     *Hello> :t "hola" ++ "como estás"
 	"hola" ++ "como est\225s" : String
   ```
+
+## Hello world
+
+```
+module Main <- Module header
+main : IO () <- function declaration
+main = putStrLn "Que onda chavos!!" <- function definition
+```
+
+```
+	$ idris hello.idr
+
+	idri> :exec
+```
+
+Standalone binary 
+```
+$ idris Hello.idr -o hello_idris
+```
+
+Reload Repl `:r`
+
